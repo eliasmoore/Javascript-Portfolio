@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Javascript Portfolio</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="title">
+      Javascript Portfolio
+    </h1>
+    
+    <div class="tab">
+  <button class="tablinks" onclick="openProgram(event, 'Example1')">Example1</button>
+  <button class="tablinks" onclick="openProgram(event, 'Drawing')">Drawing</button>
+</div>
+
+<div id="Example1" class="tabcontent">
+  <embed src="example.html">
+</div>
+
+<div id="Drawing" class="tabcontent">
+  <embed src="drawing.html">
+</div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
