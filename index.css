@@ -1,3 +1,7 @@
+html, body{
+    height: 100%;
+}
+
 #title
 {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -39,7 +43,9 @@
 
 /* Style the tab content */
 .tabcontent {
+    height: 90%;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
