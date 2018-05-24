@@ -16,7 +16,7 @@ function draw()
 {
   if(mouseIsDown)
   {
-    ctx.fillRect(mousePosX - 5,mousePosY - 5,10,10);.
+    ctx.fillRect(mousePosX - 5,mousePosY - 5,10,10);
   }
   
 }
