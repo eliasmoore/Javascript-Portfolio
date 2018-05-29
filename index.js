@@ -1,6 +1,8 @@
 function openProgram(evt, programName) {
     // Declare all variables
     var i, tabcontent, tablinks;
+    
+    
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -18,3 +20,5 @@ function openProgram(evt, programName) {
     document.getElementById(programName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+openProgram(event, 'Home');

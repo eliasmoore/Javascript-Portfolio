@@ -1,10 +1,11 @@
 html, body{
     height: 100%;
-    
+    color: whitesmoke;
 }
 
 #board
 {
     border-style: solid;
     cursor: crosshair;
+    background-color: antiquewhite;
 }
